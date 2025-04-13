@@ -1,34 +1,60 @@
-LearnMate-AI Companion
+# 🎓 LearnMate - AI Learning Companion
 
-LearnMate is an AI-powered educational assistant built with Streamlit and Google Generative AI (Gemini). It helps users set learning goals, generate personalized study plans, chat with an AI twin, take quizzes, listen to audio summaries, and translate content into regional languages.
+**LearnMate** is an interactive AI-powered educational assistant built with Streamlit and Google Gemini. Whether you're planning your learning path, chatting with an AI twin, testing yourself with quizzes, generating audio summaries, or translating your thoughts regionally—LearnMate is your personalized study buddy!
 
-🚀 Features
-📘 Learning Path Generator
-Personalized roadmap based on your knowledge, goal, and style — includes YouTube links and resources.
 
-💬 Study Twin
-Chat with your AI twin for topic-specific guidance, motivation, and Q&A.
+## 🚀 Features
 
-🧪 Quiz Generator
-Auto-generates 5 MCQs on any topic with answer validation and export option.
+- 📘 **Learning Roadmap Generator**  
+  Build a personalized, markdown-formatted learning plan based on your knowledge, goals, and learning style. Includes:
+  - Step-by-step roadmap
+  - YouTube video recommendations
+  - Resources & study tips
+  - Language translation support
 
-🎧 Audio Summary
-Converts text into speech using gTTS, with download and audio playback.
+- 💬 **AI Study Twin**  
+  Interact with a friendly AI twin who:
+  - Understands your confidence level
+  - Suggests personalized strategies
+  - Answers questions in a conversational flow
 
-🌐 Regional Buddy
-Translate messages into Hindi, Tamil, or Telugu using Google Translate.
+- 🧪 **Quiz Generator**  
+  Test your understanding with:
+  - Auto-generated MCQs (5 per topic)
+  - Radio-button interface to answer
+  - Instant feedback with correct answers
+  - Downloadable quiz format
 
-✅ Dashboard Sidebar
-Add and track learning goals and to-do tasks interactively.
+- 🎧 **Audio Summary Generator**  
+  Paste any content and get:
+  - MP3 audio summary via Text-to-Speech (TTS)
+  - Downloadable audio file
 
-🛠️ Tech Stack
-Python + Streamlit
+- 🌐 **Regional Buddy**  
+  Translate your messages into:
+  - Hindi
+  - Tamil
+  - Telugu  
+  Powered by Deep Translator, enabling cross-language learning assistance.
 
-Google Generative AI (gemini-1.5-flash)
+- 📌 **Sidebar Dashboard**  
+  Track your:
+  - Learning goals
+  - To-do tasks
+  - Completed study tasks  
 
-gTTS for text-to-speech
+## ⚠️ Notes
 
-deep_translator for translations
+- This app uses **Google Generative AI (Gemini 1.5 Flash)**. You must have an API key from [Google AI Studio](https://makersuite.google.com/app) and save it in a `.env` file.
 
-dotenv for API key management
+- Supported languages for translation and roadmap generation: `English`, `Hindi`, `Tamil`, `Telugu`.
 
+- Audio summaries are generated using `gTTS`, which requires internet access.
+
+## 🔮 Future Enhancements
+
+- 🗣️ **Voice-based Interaction** – Allow users to speak questions and receive voice-based answers from the AI twin.
+- 📈 **Progress Tracking Analytics** – Add visual dashboards to track learning milestones and quiz performance over time.
+- 🧑‍🏫 **Tutor Matching** – Suggest real mentors or tutor resources based on user goals and region.
+- 🧠 **Smarter Study Twin Memory** – Save long-term study history to provide more contextual responses.
+- 🔒 **User Authentication** – Add secure login so users can save their goals, plans, and quiz data persistently.

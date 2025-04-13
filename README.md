@@ -1,4 +1,5 @@
-🎓 LearnMate - AI Learning Companion
+LearnMate-AI Companion
+
 LearnMate is an AI-powered educational assistant built with Streamlit and Google Generative AI (Gemini). It helps users set learning goals, generate personalized study plans, chat with an AI twin, take quizzes, listen to audio summaries, and translate content into regional languages.
 
 🚀 Features
